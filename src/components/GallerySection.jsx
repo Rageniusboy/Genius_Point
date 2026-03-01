@@ -1,7 +1,7 @@
 import heroImg from "@/assets/hero-classroom.jpg";
 import academicImg from "@/assets/academic-class.jpg";
 import englishImg from "@/assets/english-class.jpg";
-import teacherImg from "@/assets/teacher-rakesh.jpg";
+import teacherImg from "@/assets/teacher-rakesh.png";
 
 const gallery = [
   { src: heroImg, label: "Our Classroom", span: "md:col-span-2" },
@@ -33,7 +33,7 @@ export default function GallerySection() {
                 src={item.src}
                 alt={item.label}
                 loading="lazy"
-                className="w-full h-48 md:h-56 object-cover transition-transform duration-500 group-hover:scale-105"
+                className="w-full h-60 md:h-60 object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div
                 className="absolute inset-0 flex items-end p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300"

@@ -8,6 +8,7 @@ import GallerySection from "@/components/GallerySection"
 import ContactSection from "@/components/ContactSection"
 import Footer from "@/components/Footer"
 import { MessageCircle } from "lucide-react"
+import ToppersBanner from "@/components/ToppersBanner"
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
 
       <main>
         <HeroSection />
+        <ToppersBanner />
         <AboutSection />
         <CoursesSection />
         <WhyUsSection />

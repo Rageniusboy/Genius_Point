@@ -1,4 +1,4 @@
-import teacherImg from "@/assets/teacher-rakesh.jpg";
+import teacherImg from "@/assets/teacher-rakesh.png";
 import { Award, BookOpen, Users, ClipboardCheck } from "lucide-react";
 
 const highlights = [
@@ -18,7 +18,7 @@ export default function AboutSection() {
           <div className="yellow-line" />
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-3 items-center">
           {/* Image */}
           <div className="flex justify-center md:justify-start">
             <img
