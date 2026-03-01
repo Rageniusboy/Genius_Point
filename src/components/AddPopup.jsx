@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { X } from "lucide-react";
+import addPopupImg from "../assets/add-popup.png";
 
 export default function AddPopup() {
   const [open, setOpen] = useState(false);
@@ -17,7 +18,6 @@ export default function AddPopup() {
   return (
     <div className="fixed inset-0 z-[999] flex items-center justify-center bg-black/70 px-4">
       <div className="relative max-w-4xl w-full">
-        
         {/* Close Button */}
         <button
           onClick={() => setOpen(false)}
@@ -28,7 +28,7 @@ export default function AddPopup() {
 
         {/* Banner Image */}
         <img
-          src="/src/assets/add-popup.png"
+          src={addPopupImg}
           alt="Topper Results"
           className="max-h-[90vh] w-auto mx-auto rounded-2xl shadow-2xl"
         />
